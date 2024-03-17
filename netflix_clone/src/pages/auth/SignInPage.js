@@ -10,7 +10,7 @@ const SignInPage = () => {
   const [activeLink, setActiveLink] = useState("Permium");
   const [form] = Form.useForm();
   const onNextStep = () => {
-    setFormstep(formstep +1);
+    setFormstep(formstep + 1);
   };
   const handleLinkClick = (link) => {
     setActiveLink(link);
@@ -339,151 +339,147 @@ const SignInPage = () => {
               </div>
             </div>
             {activeLink === "Permium" && (
-            <div className="font-black text-gray-500 flex flex-col w-full gap-2">
-              <div className="  flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
-                <div className="w-32 text-sm">Monthly price</div>
-                <div className="text-end">USD 9.99</div>
-              </div>
-              <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
-                <div className="w-32 text-sm">Video and sound quality</div>
-                <div className="text-right">Best</div>
-              </div>
-              <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
-                <div className="w-32 text-sm">Resolution</div>
-                <div className="text-right">4K (Ultra HD) + HDR</div>
-              </div>
-              <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
-                <div className="w-32 text-sm">Spatial audio (immersive sound)</div>
-                <div className="text-right">Included</div>
-              </div>
-              <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
-                <div className="w-32 text-sm">Supported devices</div>
-                <div className=" text-right">TV, computer, mobile phone, tablet</div>
-              </div>
-              <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
-                <div className="w-32 text-sm">
-                Devices your household can watch at the same time
+              <div className="font-black text-gray-500 flex flex-col w-full gap-2">
+                <div className="  flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
+                  <div className="w-32 text-sm">Monthly price</div>
+                  <div className="text-end">USD 9.99</div>
                 </div>
-                <div className="text-right">4</div>
-              </div>
-              <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
-                <div className="w-32 text-sm">
-                Download devices
+                <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
+                  <div className="w-32 text-sm">Video and sound quality</div>
+                  <div className="text-right">Best</div>
                 </div>
-                <div className="text-right">6</div>
+                <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
+                  <div className="w-32 text-sm">Resolution</div>
+                  <div className="text-right">4K (Ultra HD) + HDR</div>
+                </div>
+                <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
+                  <div className="w-32 text-sm">
+                    Spatial audio (immersive sound)
+                  </div>
+                  <div className="text-right">Included</div>
+                </div>
+                <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
+                  <div className="w-32 text-sm">Supported devices</div>
+                  <div className=" text-right">
+                    TV, computer, mobile phone, tablet
+                  </div>
+                </div>
+                <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
+                  <div className="w-32 text-sm">
+                    Devices your household can watch at the same time
+                  </div>
+                  <div className="text-right">4</div>
+                </div>
+                <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
+                  <div className="w-32 text-sm">Download devices</div>
+                  <div className="text-right">6</div>
+                </div>
               </div>
-             
-            </div>
-             )}
+            )}
             {activeLink === "standard" && (
-            <div className="font-black text-gray-500 flex flex-col w-full gap-2">
-              <div className="  flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
-                <div className="w-32 text-sm">Monthly price</div>
-                <div className="text-right">USD 7.99</div>
-              </div>
-              <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
-                <div className="w-32 text-sm">Video and sound quality</div>
-                <div className="text-right">Great</div>
-              </div>
-              <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
-                <div className="w-32 text-sm">Resolution</div>
-                <div className="text-right">1080p (Full HD)</div>
-              </div>
-              <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
-                <div className="w-32 text-sm">Supported devices</div>
-                <div className="text-right">TV, computer, mobile phone, tablet</div>
-              </div>
-              <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
-                <div className="w-32 text-sm">
-                  Devices your household can watch at the same time
+              <div className="font-black text-gray-500 flex flex-col w-full gap-2">
+                <div className="  flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
+                  <div className="w-32 text-sm">Monthly price</div>
+                  <div className="text-right">USD 7.99</div>
                 </div>
-                <div className="text-right">2</div>
-              </div>
-              <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
-                <div className="w-32 text-sm">
-                Download devices
+                <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
+                  <div className="w-32 text-sm">Video and sound quality</div>
+                  <div className="text-right">Great</div>
                 </div>
-                <div className="text-right">2</div>
+                <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
+                  <div className="w-32 text-sm">Resolution</div>
+                  <div className="text-right">1080p (Full HD)</div>
+                </div>
+                <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
+                  <div className="w-32 text-sm">Supported devices</div>
+                  <div className="text-right">
+                    TV, computer, mobile phone, tablet
+                  </div>
+                </div>
+                <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
+                  <div className="w-32 text-sm">
+                    Devices your household can watch at the same time
+                  </div>
+                  <div className="text-right">2</div>
+                </div>
+                <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
+                  <div className="w-32 text-sm">Download devices</div>
+                  <div className="text-right">2</div>
+                </div>
               </div>
-             
-            </div>
-             )}
+            )}
             {activeLink === "Basic" && (
-            <div className="font-black text-gray-500 flex flex-col w-full gap-2">
-              <div className="  flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
-                <div className="w-32 text-sm">Monthly price</div>
-                <div className="text-righttext-right">USD 3.99</div>
-              </div>
-              <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
-                <div className="w-32 text-sm">Video and sound quality</div>
-                <div className="text-righttext-right">Good</div>
-              </div>
-              <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
-                <div className="w-32 text-sm">Resolution</div>
-                <div className="text-righttext-right">720p (HD)</div>
-              </div>
-              <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
-                <div className="w-32 text-sm">Supported devices</div>
-                <div className="text-right">TV, computer, mobile phone, tablet</div>
-              </div>
-              <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
-                <div className="w-32 text-sm">
-                  Devices your household can watch at the same time
+              <div className="font-black text-gray-500 flex flex-col w-full gap-2">
+                <div className="  flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
+                  <div className="w-32 text-sm">Monthly price</div>
+                  <div className="text-righttext-right">USD 3.99</div>
                 </div>
-                <div className="text-righttext-right">1</div>
-              </div>
-              <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
-                <div className="w-32 text-sm">
-                Download devices
+                <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
+                  <div className="w-32 text-sm">Video and sound quality</div>
+                  <div className="text-righttext-right">Good</div>
                 </div>
-                <div className="text-righttext-right">1</div>
+                <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
+                  <div className="w-32 text-sm">Resolution</div>
+                  <div className="text-righttext-right">720p (HD)</div>
+                </div>
+                <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
+                  <div className="w-32 text-sm">Supported devices</div>
+                  <div className="text-right">
+                    TV, computer, mobile phone, tablet
+                  </div>
+                </div>
+                <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
+                  <div className="w-32 text-sm">
+                    Devices your household can watch at the same time
+                  </div>
+                  <div className="text-righttext-right">1</div>
+                </div>
+                <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
+                  <div className="w-32 text-sm">Download devices</div>
+                  <div className="text-righttext-right">1</div>
+                </div>
               </div>
-             
-            </div>
-             )}
+            )}
             {activeLink === "Mobile" && (
-            <div className="font-black text-gray-500 flex flex-col w-full gap-2">
-              <div className="  flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
-                <div className="w-32 text-sm">Monthly price</div>
-                <div className="text-right">USD 2.99</div>
-              </div>
-              <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
-                <div className="w-32 text-sm">Video and sound quality</div>
-                <div className="text-right">Fair</div>
-              </div>
-              <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
-                <div className="w-32 text-sm">Resolution</div>
-                <div className="text-right">480p</div>
-              </div>
-              <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
-                <div className="w-32 text-sm">Supported devices</div>
-                <div className="text-right">Mobile phone, tablet</div>
-              </div>
-              <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
-                <div className="w-32 text-sm">
-                  Devices your household can watch at the same time
+              <div className="font-black text-gray-500 flex flex-col w-full gap-2">
+                <div className="  flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
+                  <div className="w-32 text-sm">Monthly price</div>
+                  <div className="text-right">USD 2.99</div>
                 </div>
-                <div className="text-right">1</div>
-              </div>
-              <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
-                <div className="w-32 text-sm">
-                Download devices
+                <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
+                  <div className="w-32 text-sm">Video and sound quality</div>
+                  <div className="text-right">Fair</div>
                 </div>
-                <div className="text-right">1</div>
+                <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
+                  <div className="w-32 text-sm">Resolution</div>
+                  <div className="text-right">480p</div>
+                </div>
+                <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
+                  <div className="w-32 text-sm">Supported devices</div>
+                  <div className="text-right">Mobile phone, tablet</div>
+                </div>
+                <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
+                  <div className="w-32 text-sm">
+                    Devices your household can watch at the same time
+                  </div>
+                  <div className="text-right">1</div>
+                </div>
+                <div className="flex justify-between items-center w-full border-b-2 pb-5 border-gray-300">
+                  <div className="w-32 text-sm">Download devices</div>
+                  <div className="text-right">1</div>
+                </div>
               </div>
-             
-            </div>
-             )}
+            )}
             <div className="">
-                HD (720p), Full HD (1080p), Ultra HD (4K) and HDR availability
-                subject to your internet service and device capabilities. Not
-                all content is available in all resolutions. See our{" "}
-                <span className="text-blue-700">Terms of Use</span> for more
-                details. <br /> <br />
-                Only people who live with you may use your account. Watch on 4
-                different devices at the same time with Premium, 2 with
-                Standard, and 1 with Basic and Mobile.
-              </div>
+              HD (720p), Full HD (1080p), Ultra HD (4K) and HDR availability
+              subject to your internet service and device capabilities. Not all
+              content is available in all resolutions. See our{" "}
+              <span className="text-blue-700">Terms of Use</span> for more
+              details. <br /> <br />
+              Only people who live with you may use your account. Watch on 4
+              different devices at the same time with Premium, 2 with Standard,
+              and 1 with Basic and Mobile.
+            </div>
             <button
               type="primary"
               htmlType="submit"
@@ -501,26 +497,86 @@ const SignInPage = () => {
         <div className=" text-lg mb-5 mt-5 md:mt-20 text-gray-600 hover:underline">
           Question? Contact us.
         </div>
-        <div className="grid grid-cols-2 ">
+        {/* links */}
+        <div className="grid grid-cols-7 ">
           <div className="text-gray-600">
             <ul className="space-y-4">
-              <li className="hover:underline cursor-pointer">FAQ</li>
               <li className="hover:underline cursor-pointer">
-                Investor Relations
+                {" "}
+                <a
+                  target="_blank"
+                  href="https://help.netflix.com/en/node/412"
+                  rel="noreferrer"
+                >
+                  FAQ
+                </a>
               </li>
-              <li className="hover:underline cursor-pointer">Privacy</li>
               <li className="hover:underline cursor-pointer">
-                Corporate information
+                {" "}
+                <a
+                  target="_blank"
+                  href="https://help.netflix.com/legal/privacy"
+                  rel="noreferrer"
+                >
+                  Privacy
+                </a>
               </li>
             </ul>
           </div>
           <div className="text-gray-600">
             <ul className="space-y-4">
-              <li className="hover:underline cursor-pointer">FAQ</li>
               <li className="hover:underline cursor-pointer">
-                Investor Relations
+                {" "}
+                <a
+                  target="_blank"
+                  href="https://help.netflix.com/en/"
+                  rel="noreferrer"
+                >
+                  Help Center
+                </a>
               </li>
-              <li className="hover:underline cursor-pointer">Privacy</li>
+              <li className="hover:underline cursor-pointer">
+                <a target="_blank" href="#" rel="noreferrer">
+                  Cookie Preferences
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="text-gray-600">
+            <ul className="space-y-4">
+              <li className="hover:underline cursor-pointer">
+                {" "}
+                <a
+                  target="_blank"
+                  href="https://www.netflix.shop/"
+                  rel="noreferrer"
+                >
+                  Netflix Shop
+                </a>
+              </li>
+              <li className="hover:underline cursor-pointer">
+                <a
+                  target="_blank"
+                  href="https://help.netflix.com/en/node/134094"
+                  rel="noreferrer"
+                >
+                  Corporate Information
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="text-gray-600">
+            <ul className="space-y-4">
+              <li className="hover:underline cursor-pointer">
+                {" "}
+                <a
+                  target="_blank"
+                  href="https://help.netflix.com/legal/termsofuse"
+                  rel="noreferrer"
+                >
+                  Terms of Use
+                </a>
+              </li>
             </ul>
           </div>
         </div>
