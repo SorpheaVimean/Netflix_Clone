@@ -25,12 +25,10 @@ const HomePage = () => {
             <img alt="Netflix" className="w-24" src={netflix} />
           </a>
           <Link to={"/login"}>
-           <div className="font-semibold bg-NBgRed hover:bg-NBgHover text-NWhite px-3 py-1.5 rounded-md transform duration-300">
-            Sign In
-          </div>
+            <div className="font-semibold bg-NBgRed hover:bg-NBgHover text-NWhite px-3 py-1.5 rounded-md transform duration-300">
+              Sign In
+            </div>
           </Link>
-         
-
         </div>
         <div className="flex flex-col justify-center items-center text-NWhite mx-16  mt-12 md:mt-40   ">
           <div className="font-black text-[24px] text-center">
@@ -340,33 +338,34 @@ const HomePage = () => {
               Email address
             </label>
           </div>
-
-          <button className="font-extrabold bg-NBgRed hover:bg-NBgHover text-NWhite px-5 py-3.5 rounded-md transform duration-300 ">
-            Get Started
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              data-mirrorinrtl="true"
-              className="default-ltr-cache-4z3qvp e1svuwfo1"
-              data-name="ChevronRight"
-              aria-labelledby=":r3:"
-              aria-hidden="true"
-              style={{
-                display: "inline",
-                marginLeft: "5px",
-              }} /* Add inline style */
-            >
-              <path
-                fillRule="evenodd"
-                clipRule="evenodd"
-                d="M15.5859 12L8.29303 19.2928L9.70725 20.7071L17.7072 12.7071C17.8948 12.5195 18.0001 12.2652 18.0001 12C18.0001 11.7347 17.8948 11.4804 17.7072 11.2928L9.70724 3.29285L8.29303 4.70706L15.5859 12Z"
-                fill="currentColor"
-              />
-            </svg>
-          </button>
+          <Link to={"/signup"}>
+            <button className="font-extrabold bg-NBgRed hover:bg-NBgHover text-NWhite px-5 py-3.5 rounded-md transform duration-300 ">
+              Get Started
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                data-mirrorinrtl="true"
+                className="default-ltr-cache-4z3qvp e1svuwfo1"
+                data-name="ChevronRight"
+                aria-labelledby=":r3:"
+                aria-hidden="true"
+                style={{
+                  display: "inline",
+                  marginLeft: "5px",
+                }} /* Add inline style */
+              >
+                <path
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M15.5859 12L8.29303 19.2928L9.70725 20.7071L17.7072 12.7071C17.8948 12.5195 18.0001 12.2652 18.0001 12C18.0001 11.7347 17.8948 11.4804 17.7072 11.2928L9.70724 3.29285L8.29303 4.70706L15.5859 12Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </button>
+          </Link>
         </div>
         <div class=" h-1.5 absolute bottom-0.5 bg-[#232323] w-full"></div>
       </section>
