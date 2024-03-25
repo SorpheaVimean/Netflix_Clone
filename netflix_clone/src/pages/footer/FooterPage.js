@@ -1,5 +1,5 @@
 import React from "react";
-import { Select, Space } from "antd";
+import { Select } from "antd";
 const FooterPage = () => {
   return (
     <div className="p-5 ">

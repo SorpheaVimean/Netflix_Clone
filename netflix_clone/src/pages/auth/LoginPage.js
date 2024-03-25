@@ -163,7 +163,7 @@ const LoginPage = () => {
                 </a>
               </li>
               <li className="hover:underline cursor-pointer">
-                <a target="_blank" href="#" rel="noreferrer">
+                <a  href="#df" target="_blank" rel="noreferrer">
                   Cookie Preferences
                 </a>
               </li>

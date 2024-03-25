@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import netflix from "../../image/netflix.png";
 import step from "../../image/step.png";
-import { Checkbox, Form, Card } from "antd";
+import { Checkbox, Form } from "antd";
 import { FaRegCheckCircle } from "react-icons/fa";
 import { FaCheck } from "react-icons/fa6";
 import { FaCheckCircle } from "react-icons/fa";
@@ -536,7 +536,7 @@ const SignInPage = () => {
                 </a>
               </li>
               <li className="hover:underline cursor-pointer">
-                <a target="_blank" href="#" rel="noreferrer">
+                <a target="_blank" href="#d" rel="noreferrer">
                   Cookie Preferences
                 </a>
               </li>

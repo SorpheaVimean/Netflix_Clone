@@ -70,7 +70,7 @@ const Navbar = () => {
                 items,
               }}
             >
-              <a>
+              <div>
                 <Space>
                 <img src= {netflix} className="w-10" alt="" />
                 <div className="">
@@ -78,7 +78,7 @@ const Navbar = () => {
                   <FaCaretDown />
                 </div>
                 </Space>
-              </a>
+              </div>
             </Dropdown>
           </div>
           <div className=""></div>

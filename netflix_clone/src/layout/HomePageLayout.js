@@ -1,6 +1,5 @@
 import React from "react";
-import bg from "../image/bgImage.jpg";
-import movie1 from "../image/pageImage/movie1.png";
+
 import Navbar from "../pages/navbar/Navbar";
 import { Outlet } from "react-router-dom";
 const HomePageLayout = () => {
